@@ -1,0 +1,102 @@
+.button {
+
+    border: none;
+    border-radius: 3px;
+    color: #eedada;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 2rem 8rem 0.5rem;
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    
+  
+    
+  }
+  
+  .button:hover {
+    background-color: #ccc;
+  }
+  @media screen and (min-width: 280px) {
+    .button {
+      background-color: rgb(255, 0, 55);
+      /* padding: 2rem 8rem 0.5rem;
+      margin-left: 20px; */
+      padding: 0.5rem 0.03rem 0rem;
+    margin-left: 2px;
+    margin-right: -6px;
+    }
+  }
+  @media screen and (min-width: 320px) {
+    .button {
+      background-color: aqua;
+      /* padding: 2rem 8rem 0.5rem;
+      margin-left: 20px; */
+      padding: 0.5rem 0.05rem 0rem;
+    margin-left: 5px;
+    }
+  }
+  @media screen and (min-width: 375px) {
+    .button {
+
+background-color: black;
+padding: 0.1rem 0.2rem 0.2rem;
+    margin-left: 10px;
+    }
+  }
+  /* @media screen and (min-width: 540px) {
+    .button {
+
+background-color: rgb(24, 155, 24);
+padding: 0.1rem 2rem 0.2rem;
+    margin-left: 10px;
+    }
+  } */
+  @media screen and (min-width: 540px) {
+    .button {
+
+background-color: rgb(24, 155, 24);
+padding: 0.1rem 2rem 0.2rem;
+    margin-left: 10px;
+    }
+  }
+  @media screen and (min-width: 725px) {
+    .button {
+
+background-color: rgb(223, 24, 24);
+padding: 0.1rem 4.2rem 1.2rem;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .button {
+      /* width: 90%;
+      height: 5em; */
+      background-color:  #dbd363;;
+      padding: 2rem 6rem 0.5rem;
+      margin-left: 20px;
+    }
+  }
+  @media screen and (min-width: 1040px) {
+    .button {
+      /* width: 90%;
+      height: 5em; */
+      background-color:  #a563db;;
+      padding: 2rem 10rem 0.5rem;
+      margin-left: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 2560px) {
+    .button {
+      /* width: 90%;
+      height: 5em; */
+      background-color: blue;
+      padding: 2rem 18rem 0.5rem;
+      margin-right: 40px;
+      font-size: 25px;
+    }
+  }
+  

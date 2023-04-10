@@ -1,0 +1,17 @@
+.menu-link {
+    grid-column: 3/4;
+  }
+  .hi {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  .contain {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
